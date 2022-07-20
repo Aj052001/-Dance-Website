@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: Noto Serif, 'serif';
+}
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+.container{
+    min-height: 73vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 34px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    margin: 34px;
+
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 600px;
+    font-size: 15px;
+    border: 2px solid rgb(31, 31, 144);
+    border-radius: 9px;
+    padding: 7px ;
+    margin: 8px;
+    outline:none;
+}
+.container h1{
+    font-size: 34px;
+}
+
+.btn{
+    padding: 12px 16px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    font-size: 18px;
+    color: white;
+    background: rgb(167, 15, 15);
+    cursor: pointer;
+    margin: 30px;
+}
