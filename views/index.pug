@@ -1,0 +1,67 @@
+//- index.pug
+doctype html
+html
+  head
+    title Ajay Dance Academy
+    style
+      include ../static/style.css
+  body   
+    
+    nav#navbar
+     ul
+         #logo 
+              img(src="/static/img/logo.png")
+              |ADA
+         li #[a(href="/") Home]
+         li #[a(href="/") About]
+         li #[a(href="/") Services ]
+         li #[a(href="/") Class Info]
+         li #[a(href="/") Contect us]
+         
+    section#introSection 
+        div Welcome to Ajay's Dance Academy
+        |index
+        div.small Eat Sleep Dance Repeat
+    section#ourMission
+         h2  our mission
+         div.card 
+               h3 The way to like Dance
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe   
+         .card 
+               h3 Dance Perfection
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe
+
+         .card 
+               h3 Our Teaching Team
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe
+       
+    
+    section#sponsorsSection 
+    
+        h2 Our sponsors
+        #sponser 
+            img(src="/static/img/logo1.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo2.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo3.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo4.png", alt="Sponsers Img" Class="sprImg")
+
+    footer#footer
+        |copytright Ⓒ 2022 AjayDanceAcademy.com | All rights reserved     
+    
+    script
+      include ../static/index.js

@@ -1,0 +1,53 @@
+extends base.pug
+
+block scripts 
+    script(src="/static/index.js") 
+
+block scripts   
+    style 
+        include ../static/style.css
+
+block content 
+    
+         
+    section#introSection 
+        div Welcome to Ajay's Dance Academy
+        |home
+        div.small Eat Sleep Dance Repeat
+    section#ourMission
+         h2  our mission
+         div.card 
+               h3 The way to like Dance
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/1.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe   
+         div.card 
+               h3 Dance Perfection
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/2.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe
+
+         div.card 
+               h3 Our Teaching Team
+               div.card-box 
+                    div.card-img 
+                        img(src="/static/img/3.png")
+
+                    div.card-content 
+                          p This is the best Dance academy in universe
+       
+    
+    section#sponsorsSection 
+    
+        h2 Our sponsors
+        #sponser 
+            img(src="/static/img/logo1.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo2.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo3.png", alt="Sponsers Img" Class="sprImg")
+            img(src="/static/img/logo4.png", alt="Sponsers Img" Class="sprImg")
